@@ -25,9 +25,21 @@ You can view the blog site by navigating to http://127.0.0.1:8000/ in your brows
 
 Tarayıcınızda http://127.0.0.1:8000/ adresine giderek blog sitesini görüntüleyebilirsiniz.
 ```
+# References - Kaynakça
+[Start Bootstrap](https://startbootstrap.com/)
+[Bootdey](https://www.bootdey.com/) 
+
+# Contact - İletişim
+[Website](https://leo4bey.net) 
+[YouTube](https://www.youtube.com/@Leo4Code) 
+[Discord](https://discord.com/invite/TNNV6e8xdy) 
 
 # Lisence - Lisans
 
 This project is licensed under the MIT License.
 
 Bu proje MIT Lisansı altında lisanslanmıştır.
+
+
+
+
