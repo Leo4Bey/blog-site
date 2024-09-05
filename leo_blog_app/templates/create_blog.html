@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leo Blog | Yeni Blog</title>
+    <link href="{% static 'css/create_blog.css' %}" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>Yeni Blog Yazısı</h1>
+            <form method="POST">
+                {% csrf_token %}
+                <div class="input-group">
+                    <label for="title">Başlık:</label>
+                    <input type="text" id="title" name="title" placeholder="Başlığı buraya yazın..." required minlength="6" maxlength="50">
+                </div>
+                <div class="input-group">
+                    <label for="content">İçerik:</label>
+                    <textarea id="content" name="content" placeholder="İçeriği buraya yazın..." minlength="200" maxlength="4000" required></textarea>
+                </div>
+                <button type="submit">Yazıyı Paylaş</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
