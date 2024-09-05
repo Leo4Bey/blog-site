@@ -1,4 +1,4 @@
-# blog-site
+# Blog Sitesi
 Description
 This project is a blog site developed using Django. It provides a platform where users can create and delete articles.
 
@@ -19,7 +19,7 @@ SQLite3: Database
 HTML/CSS: Front-end design
 Bootstrap: CSS framework
 
-## Useage - Kullanım
+# Useage - Kullanım
 ```
 You can view the blog site by navigating to http://127.0.0.1:8000/ in your browser.
 
