@@ -55,7 +55,7 @@
 
 {% for blog in blogs %}
     <div class="col-md-6 col-lg-4">
-    <a href="{% url 'blogdetail' data.username blog.id %}">
+    <a target="_blank" href="{% url 'blogdetail' data.username blog.id %}">
     <div class="card hover-img overflow-hidden rounded-2">
     <div class="card-body p-0">
     <div class="p-4 d-flex align-items-center justify-content-between">
@@ -72,7 +72,6 @@
             {% csrf_token %}
             <button class="alt" type="submit">Sil</button>
         </form>
-        <!-- <a class="alt" href="blogs/{{ blog.owner.username }}/{{ blog.id }}">Sil</a> -->
     {% endif %}
     </div>
 {% endfor %}
